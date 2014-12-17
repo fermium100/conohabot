@@ -1,3 +1,3 @@
 module.exports = (robot) ->
-  robot.hear /(C|c)ono(H|h)a (C|c)hang (C|c)awaii/, (msg) ->
+  robot.hear /conoha chang cawaii/i, (msg) ->
   	msg.send "ありがとー！"
