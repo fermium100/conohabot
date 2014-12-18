@@ -12,5 +12,17 @@ module.exports = (robot) ->
     msg.send "こんにちは！"
 
   robot.hear /(辛|つら)い/, (msg) ->
-    msg.send "たまには休んでね！！"
+    msg.send msg.random [
+      "たまには休んでね",
+      "どうしたの？",
+      "応援してるよ"
+    ]
+
+  robot.hear /おやすみ/, (msg) ->
+    msg.send msg.random [
+      "おやすみっ!",
+      "今日もお疲れ様！",
+      "今日も一日お疲れ様！",
+      "ごめんねてた..."
+    ]
 
