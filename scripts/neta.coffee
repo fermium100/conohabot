@@ -4,3 +4,6 @@ module.exports = (robot) ->
 
   robot.hear /腹減った/, (msg) ->
     msg.send "サトウのごはん!"
+
+  robot.hear /おやつは/, (msg) ->
+    msg.send "カ ア ル！"
