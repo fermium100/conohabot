@@ -10,3 +10,6 @@ module.exports = (robot) ->
 
   robot.hear /京都、/, (msg) ->
     msg.send "いこう。"
+
+  robot.hear /コンビに、/, (msg) ->
+    msg.send "FamilyMart"
