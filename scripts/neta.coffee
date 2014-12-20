@@ -7,3 +7,6 @@ module.exports = (robot) ->
 
   robot.hear /つけても/, (msg) ->
     msg.send "おやつは カ ア ル！"
+
+  robot.hear /京都、/, (msg) ->
+    msg.send "いこう。"
