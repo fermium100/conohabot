@@ -1,3 +1,5 @@
+# example:
+# ./conoha_add.sh hello.coffee おはよう やっほー
 COFSCRVAR="
   robot.hear /XHEAR/, (msg) ->
     msg.send \"XSEND\""
